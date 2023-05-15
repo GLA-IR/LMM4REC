@@ -2,7 +2,7 @@ import re
 from PIL import ImageFilter
 import random
 
-from utils import zijun_utils
+from utils import zi_utils
 
 
 def pre_question(question,max_ques_words):
@@ -51,7 +51,7 @@ import torch
 import torch.distributed as dist
 import torch.nn.functional as F
 
-import utils.zijun_utils
+import utils.zi_utils
 from tqdm import tqdm
 
 
